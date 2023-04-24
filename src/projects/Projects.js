@@ -8,9 +8,10 @@ export const Projects = () => {
   }, []);
   return (
     <>
+    <div className="flex flex-row mx-auto my-[180px] justify-center">
       {projects.map((project) => {
         return (
-          <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="max-w-sm bg-white border border-gray-200 p-4 m-4 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href={project.imgUrl} >
               <img className="rounded-t-lg" src={project.imgUrl} alt="" />
             </a>
@@ -45,7 +46,8 @@ export const Projects = () => {
             </div>
           </div>
         );
-      })}
+    })}
+    </div>
     </>
   );
 };
