@@ -1,10 +1,10 @@
 export const getImages = () => {
     return fetch(`
-      http://localhost:8088/images
+    https://portfolio-api-rpk7v.ondigitalocean.app/images
       `).then((res) => res.json())
   }
 export const getProjects = () => {
     return fetch(`
-      http://localhost:8088/projects
+    https://portfolio-api-rpk7v.ondigitalocean.app/projects
       `).then((res) => res.json())
   }
