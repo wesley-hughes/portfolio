@@ -17,7 +17,7 @@ export const ApplicationViews = () => {
         }
       >
         <Route path="/home" element={<Home />} />
-        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
       </Route>
